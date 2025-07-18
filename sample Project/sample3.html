@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- xxxx -->
+<nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="#">Amina Mohammedbrhan</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="moreMenu" role="button" data-bs-toggle="dropdown">
+            More
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="moreMenu">
+            <li><a class="dropdown-item" href="#services">Services</a></li>
+            <li><a class="dropdown-item" href="#About">Skills</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="home" class="vh-100 d-flex align-items-center text-center" style="background-image: url(image1..jpg); background-size: cover;">
+  <div class="container">
+    <h1 class="display-4">Hello, I'm Amina</h1>
+    <p class="lead">Software Developer & Engineer</p>
+  </div>
+</section>
+
+<section id="about" class="py-5 bg-light border border-secondary border-4">
+  <div class="container">
+    <h2 class="text-center mb-4">About Me</h2>
+    <p>I am a passionate software developer with a background in computer engineering. My expertise lies in HTML, CSS, JavaScript, and Bootstrap. I love building responsive and user-friendly websites.</p>
+    <h3 class="mt-5">Skills</h3>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="skill-box text-center">
+          <i class="fab fa-html5 fa-3x"></i>
+          <h4>HTML5</h4>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="skill-box text-center">
+          <i class="fab fa-css3-alt fa-3x"></i>
+          <h4>CSS3</h4>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="skill-box text-center">
+          <i class="fab fa-js fa-3x"></i>
+          <h4>JavaScript</h4>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="skill-box text-center">
+          <i class="fab fa-bootstrap fa-3x"></i>
+          <h4>Bootstrap</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="py-5 bg-light border border-secondary border-4">
+    <div class="container">
+      <h2 class="text-center mb-5">My Projects</h2>
+      <div class="row g-4">
+        <!-- Project 1 -->
+        <div class="col-md-4">
+          <div class="project-card position-relative">
+            <img src="T1image.png" alt="Project 1" class="img-fluid w-25">
+            <div class="project-overlay d-flex align-items-center justify-content-center">
+              <div class="text-center">
+                <h5 class="text-white">Table </h5>
+                <p class="text-white-50">HTML </p>
+                <a href=" https://github.com/amuni5323/Assignmentforhtmlgithub.io" class="btn btn-primary btn-sm">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="project-card position-relative">
+            <img src="login.png" alt="Project 2" class="img-fluid">
+            <div class="project-overlay d-flex align-items-center justify-content-center">
+              <div class="text-center">
+                <h5 class="text-white">Login</h5>
+                <p class="text-white-50">HTML, CSS</p>
+                <a href="https://github.com/amuni5323/Table1html/" class="btn btn-primary btn-sm">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="col-md-4">
+          <div class="project-card position-relative">
+            <img src="bootstrap.png" alt="Project 3" class=" login img-fluid ">
+            <div class="project-overlay d-flex align-items-center justify-content-center">
+              <div class="text-center">
+                <h5 class="text-white">Login Page</h5>
+                <p class="text-white-50">HTML, CSS, Bootstrap</p>
+                <a href="https://github.com/amuni5323/Newflex/" class="btn btn-primary btn-sm">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="py-5 bg-light border border-secondary border-4">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <form action="your-form-handler" method="POST">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="subject" class="form-label">Subject</label>
+          <input type="text" class="form-control" id="subject" name="subject" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+      <div class="mt-4 text-center">
+       <a href="amuni11.hamai@gmail.com"> <p>Email: amuni11.hamai@gmail.com</p></a>
+       <a href="https://wa.me/251972300601?text=Hello,%20I'm%20interested%20in%20your%20services
+"> <p>Phone: +251972300601</p></a>
+      <div class="linked-page">
+          <a href="https://www.linkedin.com/in/amina-hagos
+  " class="text-dark">LinkedIn</a> |
+          <a href="https://github.com/dashboard" class="text-dark">GitHub</a>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="  bg-dark text-center py-5">
+
+    <p class="text-white">&copy; 2024 AMINA. </p>
+    <p class="text-white">All Rights Rserved.</p>
+    <div class="social-links text-center">
+      <a href="#" class="twitter "><i class="bi bi-twitter-x "></i></a>
+      <a href="#" class="facebook p-1"><i class="bi bi-facebook "></i></a>
+      <a href="#" class="instagram p-1"><i class="bi bi-instagram "></i></a>
+      <a href="#" class="google-plus p-1"><i class="bi bi-skype "></i></a>
+      <a href="#" class="linkedin p-1"><i class="bi bi-linkedin"></i></a>
+  </div>
+</footer>
+<script>
+    // Change Navbar background color on scroll
+    window.addEventListener('scroll', function() {
+      const navbar = document.querySelector('.custom-navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+  
+    // Smooth Scroll for links
+    const navLinks = document.querySelectorAll('.nav-link');
+    navLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        window.scrollTo({
+          top: target.offsetTop - 70, // Offset for fixed navbar
+          behavior: 'smooth'
+        });
+      });
+    });
+   </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
